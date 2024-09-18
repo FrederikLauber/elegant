@@ -67,6 +67,8 @@ figure.code {
 table {
   table-layout: fixed;
   width: 100%;
+  word-break: normal;
+  word-wrap: normal;
 }
 td {
   vertical-align: top;
