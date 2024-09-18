@@ -53,10 +53,9 @@
         {{ article.toc }}
         </nav>
     </div>
-    <!-- article-content -->
-    <div class="span12"> <!-- article-content -->
+    <div class="span12 article-content">
        {% else %}
-        <div class="span12"> <!-- article-content -->
+        <div class="span12 article-content">
             {% endif %}
             {% import '_includes/translations.html' as translations with context %}
             {{ translations.translations_for(article) }}
