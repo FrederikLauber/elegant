@@ -78,6 +78,7 @@ All categories of the {{ SITENAME|striptags|e }} blog.
 {% endblock content %}
 {% block script %}
 {{ super() }}
+<script src="//code.jquery.com/jquery.min.js"></script>
 <script>
     function uncollapse() {
             $(window.location.hash).collapse({
